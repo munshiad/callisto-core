@@ -179,3 +179,5 @@ CELERY_BROKER_BACKEND = 'memory'
 CELERY_BROKER_URL = 'memory://'
 
 MAILGUN_API_KEY = os.getenv('MAILGUN_API_KEY', default='')
+
+ALLOWED_HOSTS=['callisto-core-munshiad.c9users.io']
